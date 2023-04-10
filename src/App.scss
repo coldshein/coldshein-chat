@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #0e1030;
+}
+.App{
+    height: 100vh;
+   background-color: #0e1030;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+// sign up
+.sign-up__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.sign-up{
+    width: 400px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    input{
+        width: 80%;
+        padding: 5px 15px;
+        margin-bottom: 20px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #0e1030;
+    }
+}
+.login-title{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.sign-up__btn{
+    width: 80%;
+    padding: 10px 0;
+    border: 1px solid #0e1030;
+    background-color: #0e1030;
+    color: #f5f5f5;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.register-span{
+    font-size: 14px;
+}
+// Home
+.app-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-inner{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 700px;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+}
+.chat-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.chat-header{
+    width: 100%;
+    padding: 0 0 0 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.382);
+    height: 65px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.contact-search{
+    width: 25%;
+    padding-right: 15px;
+}
+#search{
+    width: 100%;
+    padding: 5px 15px;
+    border: 1px solid rgba(128, 128, 128, 0.382);
+    border-radius: 8px;
+    background-color: transparent;
+}
+.header-inner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.header-block{
+    width: 75%;
+}
+.chat-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: #333;
+    margin-right: 15px;
+}
+.chat-menu{
+    flex: 1;
+    display: flex;
+    overflow-y: scroll;
+}
+.contact-block{
+    width: 25%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.contact-item{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.382);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-name{
+    color: #333;
+    font-size: 16px;
+}
+.contact-msg{
+    color: #333;
+    font-size: 14px;
+}
+.contact-photo{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: aqua;
+    margin-right: 10px;
+    
+}
+.chat-block{
+    padding: 15px;
+    width: 75%;
+}
+.chat-info{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
